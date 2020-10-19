@@ -1,0 +1,120 @@
+@import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap";
+
+:root {
+    --color-green: #50fa7b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #282a36;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+header {
+    padding: 20px;
+    border: 1px solid #333;
+    background: rgba(0, 0, 0, 0.274);
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 14px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: var(--color-green);
+    transition: color 400ms;
+}
+
+#wrapper {
+    text-align: center;
+    padding: 32px;
+    max-width: 600px;
+    margin: auto;
+}
+
+#wrapper img {
+    border-radius: 50%;
+    border: 5px solid var(--color-green);
+    margin-bottom: 18px;
+    height: 300px;
+}
+
+#wrapper h1 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+}
+
+#wrapper h2 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.9;
+}
+
+#wrapper h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    opacity: 0.85;
+}
+
+#wrapper p {
+  font-size: 22px;
+  line-height: 32px;
+  margin-top: 20px;
+}
+
+.skill {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.skill h2 {
+  font-size: 34px;
+  line-height: 44px;
+  margin-bottom: 5px;
+}
+
+.skill ul {
+  max-width: 480px;
+  margin: 0 auto 30px;
+}
+
+.skill ul li {
+  text-align: left;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.social-network {
+    text-align: center;
+}
+
+.social-network img {
+    height: 50px;
+    margin: 5px 10px 8px;
+}
+
+.social-network img:hover {
+    color: var(--color-green);
+    transition: color 500ms;
+}
